@@ -1,3 +1,3 @@
-𝗦𝗼𝗰𝗶𝗮𝗹 𝗠𝗲𝗱𝗶𝗮 𝗔𝗽𝗽
+Social Media App
 
 Making a social media app using React.js and Node.js
