@@ -15,11 +15,12 @@ import Home from "./pages/home/Home.jsx"
 import Profile from "./pages/profile/Profile.jsx"
 import "./style.scss"
 import { DarkModeContext } from "./context/darkModeContext.js";
+import { AuthContext } from "./context/authContext.js";
 
 
 function App() {
 
-  const currentUser = true;
+  const {currentUser} = useContext(AuthContext);
 
   const {darkMode} = useContext(DarkModeContext)
 
